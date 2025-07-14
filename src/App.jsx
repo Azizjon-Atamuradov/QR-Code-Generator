@@ -1,10 +1,13 @@
 import { useState } from 'react'
+import QRCodeGenerator from './qr-code-generator'
 
 
 function App() {
   
   return (
-   <div></div>
+    <div>
+      <QRCodeGenerator/>
+   </div>
   )
 }
 
